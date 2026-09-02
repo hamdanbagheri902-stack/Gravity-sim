@@ -1,0 +1,63 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    background: black;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+canvas {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+
+#info {
+    position: fixed;
+
+    top: 18px;
+    left: 20px;
+
+    z-index: 10;
+
+    color: white;
+
+    pointer-events: none;
+
+    user-select: none;
+}
+
+#info h1 {
+    margin: 0 0 8px 0;
+
+    font-size: 26px;
+
+    letter-spacing: 2px;
+}
+
+#info p {
+    margin-top: 12px;
+
+    color: rgb(150, 150, 150);
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+#status {
+    color: rgb(255, 200, 70);
+
+    font-size: 15px;
+}
